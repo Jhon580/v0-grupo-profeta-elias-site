@@ -185,7 +185,7 @@ export default function HomePage() {
 
                 <div style={floatStyle}>
                   <Image
-                    src="/images/design-mode/Logo%20Profeta%20Elias%20PNG.png"
+                    src="/images/design-mode/Logo%20GEPE%20sem%20fundo.png"
                     alt="Brasão Profeta Elias"
                     width={240}
                     height={240}

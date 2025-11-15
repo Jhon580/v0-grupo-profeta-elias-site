@@ -1,10 +1,11 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Cinzel, Crimson_Text, Cormorant_Garamond } from "next/font/google"
+import { Cinzel, Crimson_Text, Cormorant_Garamond } from 'next/font/google'
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { ScrollToTop } from "@/components/scroll-to-top"
 
 const cinzel = Cinzel({
   subsets: ["latin"],
@@ -44,6 +45,7 @@ export default function RootLayout({
       <body
         className={`${crimsonText.variable} ${cinzel.variable} ${cormorantGaramond.variable} font-serif antialiased`}
       >
+        <ScrollToTop />
         <Navigation />
         {children}
         <Footer />

@@ -11,13 +11,23 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <Image
-                src="/logo-profeta-elias.png"
+                src="/images/design-mode/Logo%20GEPE%20sem%20fundo.png"
                 alt="Logo Profeta Elias"
                 width={42}
                 height={42}
                 className="h-[42px] w-[42px] object-contain mx-[-5px]"
               />
-              <span className="font-heading text-lg font-bold mx-[-5px]">Profeta Elias</span>
+              <div className="flex flex-col mx-[-5px]">
+                <span
+                  className="font-heading text-base font-semibold text-foreground leading-tight tracking-wider uppercase"
+                  style={{ fontVariant: "small-caps" }}
+                >
+                  Profeta Elias
+                </span>
+                <span className="text-xs text-muted-foreground tracking-wide italic font-subtitle">
+                  União e Libertação
+                </span>
+              </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
               Grupo de Estudos dedicado à formação intelectual cristã e à restauração da ordem espiritual.

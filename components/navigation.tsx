@@ -26,7 +26,7 @@ export function Navigation() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative">
               <Image
-                src="/images/design-mode/Logo%20Profeta%20Elias%20PNG.png"
+                src="/images/design-mode/Logo%20GEPE%20sem%20fundo.png"
                 alt="Brasão Profeta Elias"
                 width={68}
                 height={68}
