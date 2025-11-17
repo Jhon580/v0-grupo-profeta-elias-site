@@ -246,7 +246,7 @@ export default function ContatoPage() {
                         <h3 className="font-heading text-lg font-bold mb-2 text-foreground transition-[letter-spacing,transform] duration-[715ms] group-hover:tracking-wide group-hover:translate-x-0.5">
                           Telefone
                         </h3>
-                        <p className="text-muted-foreground">+55 (11) 95176-5268</p>
+                        <p className="text-muted-foreground">+55 (11) 95176-5267</p>
                       </div>
                     </div>
                   </Card>
